@@ -1,3 +1,5 @@
+# Configuration for PR Labeler: https://github.com/TimonVS/pr-labeler-action
+
 feature: ["feature/*", "feat/*"]
 fix: "fix/*"
 chore: "chore/*"

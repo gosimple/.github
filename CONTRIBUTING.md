@@ -3,6 +3,16 @@ a long time, I'm sorry for that. Life happens and burnout is not nice to me.
 
 # Contributing
 
+#### Everything should be well-tested with automation
+With rare exceptions, I will not merge a PR if all tests aren't passing.
+I also will not merge PRs that have large amounts of new, untested
+functionality. I don't require 100% unit test coverage, but all happy paths
+should be tested.
+
+#### Maintainabilty > completeness
+I will not add something that increases my maintenance burden unless
+it's very compelling functionality or an obvious bugfix.
+
 ## Contributing code changes
 
 Pull requests are the best way to propose changes to the codebase:
@@ -30,3 +40,8 @@ Pull requests are the best way to propose changes to the codebase:
 + Notes (possibly including why you think this might be happening, or stuff you tried that didn't work)
 
 I *love* thorough bug reports.
+
+#### References
+This document was adapted from the open-source contribution guidelines for Facebook's Draft, as well as briandk's [contribution template](https://gist.github.com/briandk/3d2e8b3ec8daf5a27a62).
+
+Also [Why I close PRs (OSS project maintainer notes)](https://www.jeffgeerling.com/blog/2016/why-i-close-prs-oss-project-maintainer-notes) by Jeff Geerling.

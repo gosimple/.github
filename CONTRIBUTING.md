@@ -11,7 +11,12 @@ should be tested.
 
 #### Maintainabilty > completeness
 I will not add something that increases my maintenance burden unless
-it's very compelling functionality or an obvious bugfix.
+it's very compelling functionality or an obvious bugfix. Simple, longer but
+easy to read and understand code is better than short, smart magic. I don't
+aim to handle 100% of use cases. My public projects are almost always meant
+to solve the
+[most common problems](https://en.wikipedia.org/wiki/Pareto_principle).
+If you need this very specific change please fork my work.
 
 ## Contributing code changes
 

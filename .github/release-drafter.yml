@@ -61,3 +61,24 @@ version-resolver:
     labels:
       - patch
   default: patch
+
+autolabeler:
+  - label: 'documentation'
+    files:
+      - 'doc.go'
+    branch:
+      - '/docs{0,1}\/.+/'
+  - label: 'chore'
+    files:
+      - '*.md'
+  - label: 'bug'
+    branch:
+      - '/fix\/.+/'
+    title:
+      - '/fix/i'
+  - label: 'enhancement'
+    branch:
+      - '/feature\/.+/'
+      - '/feat\/.+/'
+    body:
+      - '/JIRA-[0-9]{1,4}/'

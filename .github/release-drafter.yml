@@ -68,9 +68,12 @@ autolabeler:
       - 'doc.go'
     branch:
       - '/docs{0,1}\/.+/'
+      - '/documentation\/.+/'
   - label: 'chore'
     files:
       - '*.md'
+    branch:
+      - '/chore\/.+/'
   - label: 'bug'
     branch:
       - '/fix\/.+/'

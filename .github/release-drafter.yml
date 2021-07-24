@@ -99,3 +99,9 @@ autolabeler:
       - '/feat\/.+/'
     body:
       - '/JIRA-[0-9]{1,4}/'
+  - label: 'tests'
+    files:
+      - '*_test.go'
+    branch:
+      - '/test\/.+/'
+      - '/tests\/.+/'

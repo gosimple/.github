@@ -36,6 +36,7 @@ categories:
   - title: 🧰 Maintenance
     labels:
       - maintenance
+      - upkeep
       - chore
       - internal
   - title: 🚦 Tests
@@ -64,6 +65,7 @@ version-resolver:
       - patch
       - bug
       - maintenance
+      - upkeep
       - chore
       - docs
       - documentation
@@ -87,6 +89,7 @@ autolabeler:
       - "*.git*"
     branch:
       - '/maintenance\/.+/'
+      - '/upkeep\/.+/'
       - '/chore\/.+/'
   - label: "bug"
     branch:
